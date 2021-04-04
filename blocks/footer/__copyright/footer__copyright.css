@@ -1,0 +1,16 @@
+.footer__copyright{
+  display: flex;
+  position: relative;
+  margin:0;
+  padding:0;
+  color: #FFFFFF;
+  font-size:14px;
+  line-height:1.15;
+}
+
+@media (max-width: 320px) {
+  .footer__copyright {
+    margin-top: 48px;
+    line-height: 1;
+  }
+}
