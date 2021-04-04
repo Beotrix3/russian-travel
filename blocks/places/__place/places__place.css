@@ -2,7 +2,7 @@
   display:grid;
   margin:0 auto 80px;
   grid-template-columns: repeat(2, minmax(460px, 1fr));
-  grid-template-rows: repeat(3, minmax(min-content, max-content));
+  grid-template-rows: repeat(2, minmax(min-content, max-content));
   gap:48px 40px;
 }
 
@@ -25,10 +25,11 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
   .places__place {
+    display: flex;
+    flex-direction: column;
     margin:0 auto 50px;
-    grid-template-columns: 1fr;
     gap:32px;
   }
 }

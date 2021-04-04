@@ -8,17 +8,9 @@
   z-index: 1;
 }
 
-@media (max-width: 768px) {
-  .cover__title {
-    font-size: 72px;
-    line-height: 1;
-  }
-}
-
-@media (max-width: 320px) {
+@media (max-width: 330px) {
   .cover__title {
     max-width:288px;
     font-size:32px;
-    line-height: 1;
   }
 }
